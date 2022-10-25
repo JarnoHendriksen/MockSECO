@@ -1,0 +1,22 @@
+{
+  "name": "mockseco-controller",
+  "version": "1.0.0",
+  "description": "Mock of SearchSECO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JarnoHendriksen/MockSECOController.git"
+  },
+  "author": "Jarno Hendriksen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JarnoHendriksen/MockSECOController/issues"
+  },
+  "homepage": "https://github.com/JarnoHendriksen/MockSECOController#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}

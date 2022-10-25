@@ -1,0 +1,58 @@
+-----------------------------------------------------------------------------------------------------
+Matched the project at "https://github.com/user/project" against the database.
+-----------------------------------------------------------------------------------------------------
+
+
+Summary:
+Methods in checked project: 4
+Matches: 2 (50%)
+
+Projects found in database:
+
+Local authors present in matches:
+
+Authors present in database matches:
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+Details of matches found
+--------------------------------------------------------------------------------------------------------------------------------
+
+---------------
+Hash 1234567890
+---------------
+
+  *Method methodName in file Test.cpp line 24
+   Authors of local function: 
+  AuthorName
+
+DATABASE
+  *Method functionName in project projName1 in file file.cpp line 33
+  URL: https://github.com/user/project
+  Method marked as vulnerable with code: 123(https://www.url-of-vulnerability.com)
+  Authors of function fuond in database: 
+  	Author1
+  	Author2
+
+  *Method functionName in project projName2 in file file.cpp line 39
+  URL: https://github.com/user/project
+  Method marked as vulnerable with code: 123(https://www.url-of-vulnerability.com)
+  Authors of function fuond in database: 
+  	Author1
+  	Author2
+
+---------------
+Hash 9876544322
+---------------
+
+  *Method otherMethod in file OtherFile.cpp line 180
+   Authors of local function: 
+  AuthorName
+
+DATABASE
+  *Method otherMethod in project projName1 in file file.cpp line 88
+  URL: https://github.com/user/project
+  Method marked as vulnerable with code: 123(https://www.url-of-vulnerability.com)
+  Authors of function fuond in database: 
+  	Author1
+  	Author2
