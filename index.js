@@ -1,9 +1,9 @@
-import { readFileSync } from "fs";
+const fs = require("fs");
 
 function runMockSECO() {
   let output;
   try {
-    output = readFileSync("./output.txt");
+    output = fs.readFileSync("./output.txt");
   } catch {
     console.error("File output.txt not found.");
   }
