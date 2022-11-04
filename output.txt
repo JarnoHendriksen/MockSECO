@@ -1,5 +1,5 @@
 -----------------------------------------------------------------------------------------------------
-Matched the project at "https://github.com/user/project" against the database.
+Matched the project at "https://github.com/QDUNI/FairSECO" against the database.
 -----------------------------------------------------------------------------------------------------
 
 
@@ -22,37 +22,37 @@ Details of matches found
 Hash 1234567890
 ---------------
 
-  *Method methodName in file Test.cpp line 24
+  *Method parseInput in file searchseco.ts line 110
    Authors of local function: 
-  AuthorName
+  Quinn Donkers
 
 DATABASE
-  *Method functionName in project projName1 in file file.cpp line 33
-  URL: https://github.com/user/project
+  *Method parseInput in project SearchSECOController in file parse.cpp line 33
+  URL: https://github.com/SecureSECO/SearchSECOController
   Method marked as vulnerable with code: 123(https://www.url-of-vulnerability.com)
-  Authors of function fuond in database: 
-  	Author1
-  	Author2
+  Authors of function found in database: 
+  	Rowin Schouten
+  	Tjibbe Bolhuis
 
-  *Method functionName in project projName2 in file file.cpp line 39
-  URL: https://github.com/user/project
-  Method marked as vulnerable with code: 123(https://www.url-of-vulnerability.com)
-  Authors of function fuond in database: 
-  	Author1
-  	Author2
+  *Method Parse in project TrustSECO in file parser.cs line 39
+  URL: https://github.com/SecureSECO/TrustSECO
+  Method marked as vulnerable with code: 246(https://www.url-of-vulnerability.com)
+  Authors of function found in database: 
+  	Bram Lankhorst
+  	Valia Bykova
 
 ---------------
 Hash 9876544322
 ---------------
 
-  *Method otherMethod in file OtherFile.cpp line 180
+  *Method getMethodInfo in file searchseco.ts line 180
    Authors of local function: 
-  AuthorName
+  Bart Hageman
 
 DATABASE
-  *Method otherMethod in project projName1 in file file.cpp line 88
-  URL: https://github.com/user/project
-  Method marked as vulnerable with code: 123(https://www.url-of-vulnerability.com)
-  Authors of function fuond in database: 
-  	Author1
-  	Author2
+  *Method getInfo in project searchseco-output-parser in file parseOutput.js line 88
+  URL: https://github.com/jarnohendriksen/searchseco-output-parser
+  Method marked as vulnerable with code: 234(https://www.url-of-vulnerability.com)
+  Authors of function found in database: 
+  	Alina Aydin
+  	Jarno Hendriksen
